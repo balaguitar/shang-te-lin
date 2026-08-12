@@ -1,0 +1,46 @@
+# Shang-Te Lin 林尚德 — Artist Website
+
+可直接部署到 GitHub Pages 的響應式單頁網站，不需要安裝任何軟體或執行建置指令。
+
+## 上線前請先替換
+
+1. **形象照**：已使用 `assets/images/shang-te-lin-portrait.jpg`。未來可用同名檔案直接替換，建議直式 JPG/WebP，至少 1200 × 1500 px。
+2. **頁面連結**：Spotify、Instagram 與 Facebook 已設定完成。大禾音樂官網仍為占位連結；取得網址後，搜尋 `data-placeholder-link` 並把相鄰的 `href="#"` 改成完整網址。
+3. **Email**：已設定為 `sd.lin@dhmusic.cc`。
+4. **Selected Works**：搜尋 `Replace these category summaries`，將四個概括項目換成實際作品名稱、合作藝人與年份。
+5. **英文 Bio／獎項**：正式發布前請本人確認文字與獎項名稱。
+
+## 關於獎項 Logo
+
+目前網站採用統一設計的「獎項名稱標記」，並未擅自重製官方 Logo。金馬獎官方規章要求 Logo 使用者向執委會申請標準格式檔案，且不得裁切或修改。取得各獎項官方授權檔案後，可放入 `assets/images/`，再將資歷區的文字標記換成正式圖片。
+
+## 部署到 GitHub Pages
+
+1. 登入 GitHub，建立新的公開 repository，例如 `shang-te-lin`。
+2. 將這個資料夾內的所有檔案上傳到 repository 根目錄；請保留 `assets` 資料夾結構與 `.nojekyll`。
+3. 開啟 repository 的 **Settings → Pages**。
+4. 在 **Build and deployment** 將 Source 選為 **Deploy from a branch**。
+5. Branch 選擇 **main**，資料夾選 **/(root)**，按 **Save**。
+6. 等候數分鐘後，網站網址通常為：`https://你的帳號.github.io/shang-te-lin/`
+
+若 repository 名稱直接設為 `你的帳號.github.io`，網址會是 `https://你的帳號.github.io/`。
+
+## 本機預覽
+
+直接雙擊 `index.html` 即可預覽。若字型無法顯示，請確認裝置有網路連線；網站會自動使用系統備用字型。
+
+## 檔案結構
+
+```text
+index.html
+assets/
+  css/style.css
+  js/main.js
+  images/shang-te-lin-portrait.jpg
+  images/shang-te-lin-studio.jpg
+  images/golden-horse-speech.jpg
+.nojekyll
+README.md
+```
+
+© Shang-Te Lin / Harvest Music
