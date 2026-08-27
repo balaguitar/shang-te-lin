@@ -5,7 +5,7 @@
 ## 上線前請先替換
 
 1. **形象照**：已使用 `assets/images/shang-te-lin-portrait.jpg`。未來可用同名檔案直接替換，建議直式 JPG/WebP，至少 1200 × 1500 px。
-2. **頁面連結**：Spotify、Instagram 與 Facebook 已設定完成。大禾音樂官網仍為占位連結；取得網址後，搜尋 `data-placeholder-link` 並把相鄰的 `href="#"` 改成完整網址。
+2. **頁面連結**：Spotify、Instagram 與 Facebook 已設定完成；頁面 Bio 與結構化資料也標示了 Harvest Music 大禾音樂關聯。
 3. **Email**：已設定為 `sd.lin@dhmusic.cc`。
 4. **Selected Works**：搜尋 `Replace these category summaries`，將四個概括項目換成實際作品名稱、合作藝人與年份。
 5. **英文 Bio／獎項**：正式發布前請本人確認文字與獎項名稱。
