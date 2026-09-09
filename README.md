@@ -1,14 +1,14 @@
-# Shang-Te Lin 林尚德 — Artist Website
+# 林尚德 Shang-Te Lin — Official Website
 
 可直接部署到 GitHub Pages 的響應式單頁網站，不需要安裝任何軟體或執行建置指令。
 
-## 上線前請先替換
+## 網站內容
 
 1. **形象照**：已使用 `assets/images/shang-te-lin-portrait.jpg`。未來可用同名檔案直接替換，建議直式 JPG/WebP，至少 1200 × 1500 px。
-2. **頁面連結**：Spotify、Instagram 與 Facebook 已設定完成；頁面 Bio 與結構化資料也標示了 Harvest Music 大禾音樂關聯。
+2. **Official Profiles**：Facebook、Instagram、Spotify、Apple Music、YouTube、IMDb 與 Taiwan Cinema 已集中列出，並同步至結構化資料。
 3. **Email**：已設定為 `sd.lin@dhmusic.cc`。
-4. **Selected Works**：搜尋 `Replace these category summaries`，將四個概括項目換成實際作品名稱、合作藝人與年份。
-5. **英文 Bio／獎項**：正式發布前請本人確認文字與獎項名稱。
+4. **統一身分**：網站標題、首頁、Meta 描述與 Schema.org 均使用「林尚德 Shang-Te Lin｜音樂製作人・詞曲創作者・電影配樂 / Music Producer · Songwriter · Film Composer」。
+5. **英文 Bio／獎項**：文字與獎項名稱可依最新履歷持續更新。
 
 ## 關於獎項 Logo
 

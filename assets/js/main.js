@@ -20,16 +20,3 @@ const revealObserver = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12 });
 document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
-
-const toast = document.querySelector('.toast');
-let toastTimer;
-document.querySelectorAll('[data-placeholder-link]').forEach((link) => {
-  link.addEventListener('click', (event) => {
-    if (link.getAttribute('href') === '#') {
-      event.preventDefault();
-      toast.classList.add('show');
-      clearTimeout(toastTimer);
-      toastTimer = setTimeout(() => toast.classList.remove('show'), 2600);
-    }
-  });
-});
