@@ -1,6 +1,6 @@
 # 林尚德 Shang-Te Lin — Official Website
 
-可直接部署到 GitHub Pages 的響應式單頁網站，不需要安裝任何軟體或執行建置指令。
+可直接部署到 GitHub Pages 的響應式音樂家官方網站，不需要安裝任何軟體或執行建置指令。首頁保留音樂家身分、作品與官方資料，並包含「音樂筆記 Music Notes」文章系統。
 
 ## 網站內容
 
@@ -33,6 +33,12 @@
 
 ```text
 index.html
+notes/
+  index.html
+  music-theory-and-pop/index.html
+  norwegian-wood-misreading/index.html
+  were-old-songs-better/index.html
+  then-and-now-lyrics/index.html
 assets/
   css/style.css
   js/main.js
@@ -42,5 +48,9 @@ assets/
 .nojekyll
 README.md
 ```
+
+## 新增文章
+
+每篇文章放在 `notes/文章網址/index.html`，並同步把標題、日期、分類與摘要加入 `notes/index.html` 的文章列表。若要顯示在首頁，也要把文章卡片加入首頁的「Music Notes」區塊。文章網址與 canonical URL 應保持一致。
 
 © Shang-Te Lin / Harvest Music
